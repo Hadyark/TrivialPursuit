@@ -1,0 +1,1 @@
+{"listAccount":[{"id":"admin","password":"helha","admin":true},{"id":"user","password":"helha","admin":false},{"id":"guest","password":"","mail":"","admin":false}]}

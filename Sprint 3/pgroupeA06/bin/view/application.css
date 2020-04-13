@@ -1,0 +1,193 @@
+#LoginPane{
+    -fx-background-image: url("../img/RetroComputer.png");
+    -fx-background-size:cover;
+    /*-fx-background-position: center center;*/
+   
+}
+
+#MainMenu{
+	 -fx-background-image: url("../img/RetroMountain.png");
+    -fx-background-size:cover;
+	
+}
+#Jeux{
+	 -fx-background-image: url("../img/RetroMountain.png");
+    -fx-background-size:cover;
+	
+}
+#AddPane{
+    -fx-background-color: #f9e07c;
+	-fx-padding: 15 15 15 15;
+}
+
+#soloPaneGpTop{
+    -fx-background-color: #FFE57F;
+    -fx-border-style: solid ;
+    -fx-border-color: #FFE57F;
+    -fx-border-width: 0 0 5 0;
+}
+
+#soloPaneGpBot{
+    -fx-background-color: #FFE57F;
+    -fx-border-style: solid ;
+    -fx-border-color: #FFE57F;
+    -fx-border-width: 5 0 0 0;
+}
+
+#soloPane{
+   /* -fx-background-color: #514545; */
+	-fx-background-image: url("../img/Arcade1.png");
+    -fx-background-size:cover;
+}
+#wheelPane2{
+   /* -fx-background-color: #514545; */
+	-fx-background-image: url("../img/Arcade2.png");
+	-fx-background-size:cover;
+}
+
+#questionPane{
+	/* 
+    -fx-background-color: #514545;
+    -fx-border-style: solid ;
+    -fx-border-color: #514545;
+    -fx-border-width: 5;
+    */
+    -fx-background-image: url("../img/Arcade1.png");
+    -fx-background-size:cover;
+}
+
+#questionPaneVbx{
+    /*-fx-background-color: #F27674;*/
+    -fx-background-color: #c0c0c0 ;
+    -fx-border-style: solid ;
+    -fx-border-color: #83C1B8 ;
+    -fx-border-width: 10;
+}
+
+
+
+#txtFieldAnswer {
+    -fx-text-fill: #514545;
+    -fx-max-height: 30;
+    -fx-max-width: 300
+}
+
+#labelCat {
+    -fx-font-size: 30px;
+}
+
+#labelQuestion {
+    -fx-font-size: 20px ;
+}
+
+#CheesesPane {
+    -fx-background-color: lightgrey  ;
+    -fx-border-style: solid ;
+    -fx-border-color: #83C1B8 ;
+    -fx-border-width: 5;
+}
+#btnMainMenu {
+	-fx-font: 20 arial;
+	-fx-base: #696969;
+}
+#btnAdminMainMenu {
+	-fx-font: 20 arial;
+	-fx-base: red;
+}
+
+#HyperLink{
+    -fx-font-size: 20px ;
+    -fx-text-fill: white;
+    -fx-underline: true;
+}
+
+#LabelLogin{
+    -fx-font-size: 25px ;
+    -fx-text-fill: white;
+}
+
+
+#btnMode,#btnLevel,#btnStart,#tfManches,#tf1,#tf2,#btnHost,#btnJoin,#btnMainMenu,#btn{
+	 -fx-background-color:
+       linear-gradient(#990073 0%, #b30086 50%, #006080 100%);
+    -fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-radius: 50;
+    -fx-padding: 15 30 15 30;
+	-fx-font-family :Impact Font;
+	
+    -fx-font-weight: bold;
+    -fx-font-size:25px;
+    -fx-text-fill: #1affff;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.1) , 2, 0.0 , 0 , 1);
+	
+}
+
+#btnMode:hover,#btnLevel:hover,#btnStar:hover,#tfManches:hover,#tf1:hover,#tf2:hover,#btnStart:hover,#btnMainMenu:hover,#btn:hover{
+		 -fx-background-color:
+       linear-gradient(#006080 0%, #b30086 50%, #990073 100%);
+    -fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-radius: 50;
+    -fx-padding: 15 30 15 30;
+	-fx-font-family :Impact Font;  
+
+    -fx-font-weight: bold;
+    -fx-font-size:25px;
+    -fx-text-fill: #1affff;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.1) , 2, 0.0 , 0 , 1);
+}
+
+
+
+
+#label1,#label2,#difficulty,#laps,#lbsimple{
+	-fx-text-fill:#1affff;
+	-fx-font-size:30px;
+	-fx-font-weight: bold;
+	
+	-fx-font-family: Impact Font;
+	
+}
+
+#labelSolo{
+	-fx-text-fill:#ffcc00;
+	-fx-font-size:30px;
+	-fx-font-weight: bold;
+	
+	-fx-font-family: Impact Font;
+	
+}
+
+#lbLocal{
+	-fx-font-size:30px;
+	-fx-font-weight: bold;
+	
+	-fx-font-family: Impact Font;
+}
+
+#lbDuel{
+	-fx-font-size:30px;
+	-fx-font-weight: bold;
+	
+	-fx-font-family: Impact Font;
+}
+
+
+.spinner .increment-arrow-button,
+.spinner .decrement-arrow-button {
+    -fx-background-color:#1affff ;
+}
+
+.spinner .increment-arrow-button:hover,
+.spinner .decrement-arrow-button:hover {
+			 -fx-background-color:#990073;
+
+    
+}
+
+
+
+#duelPane{
+	 -fx-background-image: url("../img/Arcade2.png");
+	-fx-background-size:cover;
+}
+
